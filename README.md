@@ -13,3 +13,5 @@
 3.	Как минимум 51,8 Мб свободного пространства на диске.
 
 ![alt text](https://raw.githubusercontent.com/0SouthBoss0/Predprof-2/main/documentation/result.png)
+
+<a id="raw-url" href="https://github.com/0SouthBoss0/Predprof-2/blob/main/servicelife-z%20setup.exe?raw=true">Скачать приложение</a>
