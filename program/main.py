@@ -32,7 +32,7 @@ class ExampleApp(QtWidgets.QMainWindow, MainWindowFinal.Ui_MainWindow):
                 self.comboBox_3.addItem(all_results6[i][1])
 
     def initUI(self):
-        self.setWindowTitle('Руки-крюки')
+        self.setWindowTitle('SERVICELIFE-Z')
         self.setWindowIcon(QIcon('icon.ico'))
 
         self.show()

@@ -1,5 +1,6 @@
 from PyQt5 import QtCore, QtWidgets
 from bd import all_results, all_results2, all_results3, all_results4
+from pyqtgraph import PlotWidget
 
 
 class Ui_MainWindow(object):
@@ -92,9 +93,6 @@ class Ui_MainWindow(object):
         for i in range(len(all_results4)):
             self.comboBox_3.addItem(all_results4[i][1])
 
-        self.label_2.setText(_translate("MainWindow", "Температура"))
-        self.label.setText(_translate("MainWindow", "Напряжение"))
+        self.label_2.setText(_translate("MainWindow", "Температура (°C)"))
+        self.label.setText(_translate("MainWindow", "Напряжение (В)"))
         self.pushButton.setText(_translate("MainWindow", "Вывести результат"))
-
-
-from pyqtgraph import PlotWidget
